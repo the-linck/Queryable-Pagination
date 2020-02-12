@@ -21,28 +21,28 @@ namespace QueryablePagination
         /// <summary>
         /// Current page on the results.
         /// </summary>
-        public int Page
+        int Page
         {
             get;
         }
         /// <summary>
         /// Number of result pages.
         /// </summary>
-        public int PageCount
+        int PageCount
         {
             get;
         }
         /// <summary>
         /// Number of records to read on each page.
         /// </summary>
-        public int PerPage
+        int PerPage
         {
             get;
         }
         /// <summary>
         /// Number of records avaliable to read.
         /// </summary>
-        public int Total
+        int Total
         {
             get;
         }
@@ -108,7 +108,7 @@ namespace QueryablePagination
 
 
         /// <summary>
-        /// Default constructor that reads the number of avaliable records from
+        /// Basic constructor that reads the number of avaliable records from
         /// the query and does some pagination calcs.
         /// </summary>
         /// <param name="Query">The query to paginate, must be ordered.</param>
