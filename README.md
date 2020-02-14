@@ -4,7 +4,13 @@
 
 Paginating queries may be a repetitive process. Even being an important thing to any well coded application, repetition may lead to errors and lack of standardization on the code.
 
-To solve this, I've made this simple project that provide a simple - yet flexible - implementation of a strucure for pagination, that allows some pre-defined data formats and is ready to be extended as needed,
+To solve this, I've made this simple project that provide a simple - yet flexible - implementation of a strucure for pagination, that allows some pre-defined data formats and is ready to be extended as needed.
+
+## Compatibility
+
+According to Microsoft's [.Net API documentation](https://docs.microsoft.com/en-us/dotnet/api/), the classes and methods used in this project are compatible with .Net Framework 3.5+ and .Net Core 1.0+, with no diference in use between .Net and .Net Core.
+
+The code was tested on .Net Framework 4.8, but will also be tested on .Net Core sometime.
 
 ## IPaged
 
